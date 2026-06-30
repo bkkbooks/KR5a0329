@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR5a0329/v1
+canonical_location: https://kanripo.org/bkk/KR5a0329/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 麻姑傳一卷
+  identifiers:
+    alt_id:
+    - CH2a1523
+  tags:
+    kr-categories: KR5a
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR5a0329.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR5a0329_001.yaml, hash: 'sha256:cb18bc58211dc2f99a7a7d3fb018c43bcba8d0a1ec75d9fd1a1890b3b55a3393'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5a0329_001.markers.yaml, hash: 'sha256:ca3540fcba6472744c3dc80e0e5d717c1d28b3624d1c8eb61252bea5a15e3597'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR5a0329_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 790
+  label: 麻姑傳
+  type: section
+  level: 1
+hash: sha256:f438629591bbf677309e72812fa001d0a8e340213c4ed593cc9df15646218b70
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
